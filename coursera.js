@@ -1,7 +1,7 @@
-Accounts.oauth.registerService('github');
+Accounts.oauth.registerService('coursera');
 
 if (Meteor.isClient) {
-  Meteor.loginWithGithub = function(options, callback) {
+  Meteor.loginWithCoursera = function(options, callback) {
     // support a callback without options
     if (! callback && typeof options === "function") {
       callback = options;
@@ -9,7 +9,7 @@ if (Meteor.isClient) {
     }
 
     var credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback);
-    Github.requestCredential(options, credentialRequestCompleteCallback);
+    Coursera.requestCredential(options, credentialRequestCompleteCallback);
   };
 } else {
   Accounts.addAutopublishFields({

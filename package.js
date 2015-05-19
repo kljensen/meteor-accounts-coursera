@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Login service for Github accounts",
+  summary: "Login service for Coursera accounts",
   version: "1.0.4"
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.use('accounts-oauth', ['client', 'server']);
   api.use('coursera', ['client', 'server']);
 
-  api.addFiles('github_login_button.css', 'client');
+  api.addFiles('coursera_login_button.css', 'client');
 
-  api.addFiles("github.js");
+  api.addFiles("coursera.js");
 });
