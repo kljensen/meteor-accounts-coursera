@@ -1,6 +1,8 @@
 Package.describe({
   summary: "Login service for Coursera accounts",
-  version: "1.0.4"
+  version: "0.1.0",
+  documentation: 'README.md',
+  git: 'https://github.com/kljensen/meteor-accounts-coursera'
 });
 
 Package.onUse(function(api) {
