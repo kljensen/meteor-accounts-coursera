@@ -1,6 +1,6 @@
 # Login service for Coursera accounts
 
-An login service for [Coursera](http://www.coursera.org) using
+An login service for [Meteor](http://www.meteor.com) apps using
 [Coursera OAuth](https://tech.coursera.org/app-platform/oauth2/)
 and the [Meteor Accounts](https://www.meteor.com/accounts) system.
 See the [the accounts documentation](https://www.meteor.com/accounts)
