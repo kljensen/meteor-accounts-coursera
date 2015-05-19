@@ -1,4 +1,5 @@
 Package.describe({
+  name: "kljensen:accounts-coursera",
   summary: "Login service for Coursera accounts",
   version: "0.1.0",
   documentation: 'README.md',
